@@ -212,7 +212,7 @@ body {
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scale(0.95); }
+    transform: scale(0.9); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
