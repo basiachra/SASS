@@ -6,3 +6,20 @@
   margin-top: -25vh;
 
 }
+
+.section-features{
+  padding: 20rem 0;
+  background: linear-gradient(
+                  to right, rgba($color-primary-light, 0.8),
+                  rgba($color-primary-dark, 0.8)),
+  url("../../img/nat-4.jpg") top;
+  background-size: cover;
+  display:flex;
+  margin-top: -10rem;
+
+  transform: skewY(-7deg);// translateY(-10rem);
+
+  & > *{      //dzieci tej sekcji (wnuki już nie)
+    transform: skewY(7deg);
+  }
+}
